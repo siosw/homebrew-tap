@@ -1,25 +1,25 @@
 class Mowz < Formula
   desc "mowz retrieves production context"
   homepage "https://github.com/siosw/mowz"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/siosw/mowz/releases/download/v0.1.0/mowz-aarch64-apple-darwin.tar.xz"
-      sha256 "3386a30f00fc342d493925d9e515dca331b32fcb21d79bc309fbc004a6d9de4f"
+      url "https://github.com/siosw/mowz/releases/download/v0.1.1/mowz-aarch64-apple-darwin.tar.xz"
+      sha256 "cf17f75d57583b26b892020e90da8e19495f49b5f9426ebf8cf0733418f5b6c1"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/siosw/mowz/releases/download/v0.1.0/mowz-x86_64-apple-darwin.tar.xz"
-      sha256 "e087b67c4387c75116da7b19199f44ac08641a44e8b1872b1518bb493526e280"
+      url "https://github.com/siosw/mowz/releases/download/v0.1.1/mowz-x86_64-apple-darwin.tar.xz"
+      sha256 "31e6a874a26a3b257753e8cf4286d4b84e83a93cefafee6ee19e48be6f27579d"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/siosw/mowz/releases/download/v0.1.0/mowz-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "27427b713e674d8987bf15e71a4d33780e72d6741dbed98815680bbd59e39398"
+      url "https://github.com/siosw/mowz/releases/download/v0.1.1/mowz-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "ca20e9a66d6a51bfa54d677c6d925e22789d848863cdcef6f840b07733e86b65"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/siosw/mowz/releases/download/v0.1.0/mowz-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "e5d4b2af62369cc4781a62af46049edb72f49e244524eb18799f23cba078a369"
+      url "https://github.com/siosw/mowz/releases/download/v0.1.1/mowz-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "0c92bdcdce21d27d721b4ea77c065fd021fb40771dbb80d627e4f89c6d178489"
     end
   end
   license "GPL-3.0-or-later"
